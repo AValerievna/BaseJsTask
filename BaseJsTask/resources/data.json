@@ -1,4 +1,9 @@
 {
   "FirstString": "Some This7 very/ important. some some str.i,ng5 c!reate suspense some",
-  "SecondString": "Some important`rt string "
+  "SecondString": "Some important`rt string ",
+  "ThirdString": "Some important`rt string ",
+  "URL": "https://httpbin.org/bearer",
+  "Request": "GET",
+  "HeaderName": "Authorization",
+  "HeaderValue": "Bearer some-token"
 }
