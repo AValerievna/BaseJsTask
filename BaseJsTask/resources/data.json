@@ -1,7 +1,8 @@
 {
-  "FirstString": "Some This7 very/ important. some some str.i,ng5 c!reate suspense some",
-  "SecondString": "Some important`rt string ",
-  "ThirdString": "Some important`rt string ",
+  "FirstStringToCompare": "Some This7 very/ important. some some str.i,ng5 c!reate suspense some",
+  "SecondStringToCompare": "Some important`rt string ",
+  "StringToFindWord": "Some important`rt string ",
+  "NecessaryWord": "some",
   "URL": "https://httpbin.org/bearer",
   "Request": "GET",
   "HeaderName": "Authorization",

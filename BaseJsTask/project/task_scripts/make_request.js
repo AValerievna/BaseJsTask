@@ -1,7 +1,9 @@
+let jsonData = require('../configuration/configuration.js');
+
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 let xhr = new XMLHttpRequest();
 
-xhr.open('GET', jsonData.URL, true);
+xhr.open(jsonData.Request, jsonData.URL, true);
 xhr.setRequestHeader(jsonData.HeaderName, jsonData.HeaderValue);
 xhr.send();
 
@@ -13,9 +15,9 @@ xhr.onreadystatechange = function () {
     if (xhr.readyState !== stateNumber) return;
 
     if (xhr.status !== successStatusCode) {
-        console.log(xhr.status + ': ' + xhr.statusText);
+        console.log("Status code: " + xhr.status + ';\nStatus text: ' + xhr.statusText);
     } else {
-        console.log(xhr.responseText);
+        console.log("Response:\n" + xhr.responseText);
     }
 
 };
