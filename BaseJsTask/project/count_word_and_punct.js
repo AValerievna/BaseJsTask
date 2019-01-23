@@ -1,12 +1,12 @@
-let jsonData = require('../configuration/configuration.js');
+let jsonData = require('../resources/data.json');
 
 const punctRegExp = /[-!"',.:;?]/g;
 
-let str = jsonData.StringToFindWord;
-let word = jsonData.NecessaryWord;
+let str = jsonData.stringToFindWord;
+let word = jsonData.necessaryWord;
 
 let punctMatch = str.match(punctRegExp);
-punctCount = punctMatch ? punctMatch.length : 0;
+let punctCount = punctMatch ? punctMatch.length : 0;
 console.log("Number of punctuation signs: " + punctCount);
 
 let wordMatch = str.toLocaleLowerCase().match(new RegExp(escapeRegExp(word), 'g'));

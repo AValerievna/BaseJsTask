@@ -1,10 +1,10 @@
-let jsonData = require('../configuration/configuration.js');
+let jsonData = require('../resources/data.json');
 
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 let xhr = new XMLHttpRequest();
 
-xhr.open(jsonData.Request, jsonData.URL, true);
-xhr.setRequestHeader(jsonData.HeaderName, jsonData.HeaderValue);
+xhr.open(jsonData.requestType, jsonData.URL, true);
+xhr.setRequestHeader(jsonData.headerName, jsonData.headerValue);
 xhr.send();
 
 xhr.onreadystatechange = function () {

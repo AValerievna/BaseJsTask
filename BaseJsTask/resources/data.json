@@ -1,10 +1,10 @@
 {
-  "FirstStringToCompare": "Some This7 very/ important. some some str.i,ng5 c!reate suspense some",
-  "SecondStringToCompare": "Some important`rt string ",
-  "StringToFindWord": "Some important`rt string ",
-  "NecessaryWord": "some",
+  "firstStringToCompare": "Some This7 very/ important. some some str.i,ng5 c!reate suspense some",
+  "secondStringToCompare": "Some important`rt string ",
+  "stringToFindWord": "Some important`rt string ",
+  "necessaryWord": "some",
   "URL": "https://httpbin.org/bearer",
-  "Request": "GET",
-  "HeaderName": "Authorization",
-  "HeaderValue": "Bearer some-token"
+  "requestType": "GET",
+  "headerName": "Authorization",
+  "headerValue": "Bearer some-token"
 }

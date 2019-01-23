@@ -5,9 +5,9 @@
     "xmlhttprequest": "^1.8.0"
   },
   "scripts": {
-    "task_find_diff": "node project/task_scripts/find_diff_words",
-    "task_count_word": "node project/task_scripts/count_word_and_punct",
-    "task_make_req": "node project/task_scripts/make_request",
+    "task_find_diff": "node project/find_diff_words",
+    "task_count_word": "node project/count_word_and_punct",
+    "task_make_req": "node project/make_request",
     "install": "node resources"
   }
 }

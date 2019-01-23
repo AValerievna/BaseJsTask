@@ -1,7 +1,7 @@
-let jsonData = require('../configuration/configuration.js');
+let jsonData = require('../resources/data.json');
 
-let str1 = jsonData.FirstStringToCompare;
-let str2 = jsonData.SecondStringToCompare;
+let str1 = jsonData.firstStringToCompare;
+let str2 = jsonData.secondStringToCompare;
 
 const regExp = /[a-zA-Zа-яА-Я]+([-`][a-zA-Zа-яА-Я]+)?/g;
 
