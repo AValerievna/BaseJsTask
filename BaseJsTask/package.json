@@ -7,7 +7,6 @@
   "scripts": {
     "task_find_diff": "node project/find_diff_words",
     "task_count_word": "node project/count_word_and_punct",
-    "task_make_req": "node project/make_request",
-    "install": "node resources"
+    "task_make_req": "node project/make_request"
   }
 }
