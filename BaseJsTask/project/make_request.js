@@ -15,9 +15,9 @@ xhr.onreadystatechange = function () {
     if (xhr.readyState !== stateNumber) return;
 
     if (xhr.status !== successStatusCode) {
-        console.log("Status code: " + xhr.status + ';\nStatus text: ' + xhr.statusText);
+        console.log(`Status code: ${xhr.status}\nStatus text: ${xhr.statusText}`);
     } else {
-        console.log("Response:\n" + xhr.responseText);
+        console.log(`Response:\n${xhr.responseText}`);
     }
 
 };

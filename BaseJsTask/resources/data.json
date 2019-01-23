@@ -1,7 +1,7 @@
 {
-  "firstStringToCompare": "Some This7 very/ important. some some str.i,ng5 c!reate suspense some",
+  "firstStringToCompare": "Some This7 very/ important. some some string5 create suspense some",
   "secondStringToCompare": "Some important`rt string ",
-  "stringToFindWord": "Some important`rt string ",
+  "stringToFindWord": "Some@ This7 very important. somesa some. str.i,ng5 c!reate suspense some",
   "necessaryWord": "some",
   "URL": "https://httpbin.org/bearer",
   "requestType": "GET",
